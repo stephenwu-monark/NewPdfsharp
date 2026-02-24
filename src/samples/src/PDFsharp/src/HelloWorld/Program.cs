@@ -19,6 +19,7 @@ namespace HelloWorld
     {
         static void Main(string[] _)
         {
+            //February 2026: dont test, looks good.
             // Set a logger factory.
             // https://docs.pdfsharp.net/link/logging.html
             using var loggerFactory = LoggerFactory.Create(builder =>
